@@ -75,7 +75,12 @@ public class CapturaDePersonas {
           lstPersonas[idx] = new CapturaDePersonas().new Persona();
           lstPersonas[idx].Capturar();
           
-          
+          //===>TODO HERE: agregar aqui tu conteo
+          if(lstPersonas[idx].sexo == 'M'){
+          //===>Si es masculino
+          }else{
+          //===>Si es femnino
+          }
           
         }
         
